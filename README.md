@@ -61,31 +61,31 @@ php artisan db:seed --class=ProductSeeder
 
 Fetched Eletronics Items Only
 
-![App Screenshot](https://raw.githubusercontent.com/Shefii-02/productManagement/main/public/assets/screenshots/electronics-products.png)
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/screenshots/electronics-products.png)
 
 Get Only Paris Based Weather details 
 
-![App Screenshot](https://raw.githubusercontent.com/Shefii-02/productManagement/main/public/assets/screenshots/wheather-details.png)
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/screenshots/wheather-details.png)
 
 
 
 results from not found city based Bengaluru Based Weather details 
 Url : /weather?city=Bengaluru
 
-![App Screenshot](https://raw.githubusercontent.com/Shefii-02/productManagement/main/public/assets/city-not-found.png)
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/city-not-found.png)
 
 
 results from Api city based Paris Based Weather details 
 Url : /api/get-weather?city=Paris&appid=b4441447c3d8596e27dccdfbddab5728
 
 
-![App Screenshot](https://raw.githubusercontent.com/Shefii-02/productManagement/main/public/assets/where-details-from-api.png)
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/where-details-from-api.png)
 
 
 
 Error Message for Api doesn`t match
 
 
-![App Screenshot](https://raw.githubusercontent.com/Shefii-02/productManagement/main/public/assets/api-error.png)
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/api-error.png)
 
 
