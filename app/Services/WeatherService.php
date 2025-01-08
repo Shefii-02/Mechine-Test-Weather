@@ -30,12 +30,17 @@ class WeatherService{
 
         curl_close($ch);
 
+    
+
         if($error){
             return ['error' => 'CURL Error : $error'];
         }
 
         if($httpCode !== 200){
-            return ['error' => "API Error : Response Invalide (code : {$httpCode}"];
+            $responseResult = json_decode($response,true);
+
+            $responseMessage = $responseResult['response'];
+            return ['error' => "API Error : Response Invalide {$responseMessage} - (code : {$httpCode}"];
         }
 
        

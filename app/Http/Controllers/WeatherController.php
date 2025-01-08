@@ -24,13 +24,14 @@ class WeatherController extends Controller
         if(isset($weatherData['error'])){
             return response()->json(['error' => $weatherData['error']],500);
         }
-
+        
+ 
         return response()->json([
-            'city'=> $weatherData['name'],
+            'city'=> $weatherData['city'],
             'temperature'=>$weatherData['temperature'],
             'description' =>ucfirst($weatherData['description']),
             'humidity' => $weatherData['humidity'] .'%',
-            'wind_speed' => $weatherData['speed'] .' m/s'
+            'wind_speed' => $weatherData['wind_speed'] .' m/s'
         ]);
 
 
