@@ -1,6 +1,42 @@
 
 # Mechine Test Task for Weather  and Fetch Electronics  Categories only
 
+
+
+## Screenshots
+
+Fetched Eletronics Items Only
+
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/electronics-products.png)
+
+Get Only Paris Based Weather details 
+
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/wheather-details.png)
+
+
+
+results from not found city based Bengaluru Based Weather details 
+Url : /weather?city=Bengaluru
+
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/city-not-found.png)
+
+
+results from Api city based Paris Based Weather details 
+Url : /api/get-weather?city=Paris&appid=b4441447c3d8596e27dccdfbddab5728
+
+
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/where-details-from-api.png)
+
+
+
+Error Message for Api doesn`t match
+
+
+![App Screenshot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/api-error.png)
+
+
+
+
 Functions 
 
 Fetch Electronics  Categories
@@ -55,37 +91,4 @@ php artisan db:seed --class=ProductSeeder
  Task 2) Landon based Weather details 
 
 /weather?city=Landon
-
-
-## Screenshots
-
-Fetched Eletronics Items Only
-
-![ScreenShot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/screenshots/electronics-products.png)
-
-Get Only Paris Based Weather details 
-
-![ScreenShot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/screenshots/wheather-details.png)
-
-
-
-results from not found city based Bengaluru Based Weather details 
-Url : /weather?city=Bengaluru
-
-![ScreenShot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/city-not-found.png)
-
-
-results from Api city based Paris Based Weather details 
-Url : /api/get-weather?city=Paris&appid=b4441447c3d8596e27dccdfbddab5728
-
-
-![ScreenShot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/where-details-from-api.png)
-
-
-
-Error Message for Api doesn`t match
-
-
-![ScreenShot](https://raw.githubusercontent.com/Shefii-02/Mechine-Test-Weather/main/public/assets/screenshots/api-error.png)
-
 
